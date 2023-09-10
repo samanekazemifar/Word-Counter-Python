@@ -1,0 +1,11 @@
+def count_words(text):
+    words = text.split()
+    word_count = len(words)
+    return word_count
+
+def main():
+    input_text = input("Enter a sentence or text: ")
+    
+    word_count = count_words(input_text)
+    
+    print(f"Word count is: {word_count}")
